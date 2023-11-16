@@ -9,7 +9,7 @@
 install.packages(c("usethis", "credentials"))
 
 ## set your user name and email:
-usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
+usethis::use_git_config(user.name = "janardhanswami", user.email = "saijanardhanswami@mail.com")
 
 # ----------------------------------------------------------------------------
 
@@ -17,6 +17,9 @@ usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
 
 ## create a personal access token for authentication:
 usethis::create_github_token() 
+
+a
+
 
 ## set personal access token:
 credentials::set_github_pat()
